@@ -1,38 +1,179 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
+body {
+  /* background: url(https://images.unsplash.com/photo-1622667042273-e0e54442440a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80); */
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  /* height: 200vh; */
+  background:url('./component/asset/image.jpeg') ;
+  background-repeat: no-repeat;  /* Prevents the background from repeating */
+  background-size: cover;        /* Optional: Makes the image cover the entire page */
+  background-position: center;  
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.container {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 90%;
+  margin-left: 35%;
+  border-radius: 30%;
+  
+}
+
+.container > form {
+  width: 80%;
+  border: 2px solid white;
+  padding: 2%;
+  border-radius: 30px;
+  background: transparent;
+  height: 50vh;
+  margin-top: 20%;
+  /* #dfdfdf */
+
+}
+
+.input {
+  /* padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 25px;
+  border-radius: 9%;
+  border: 2px solid black;
+  background: transparent;
+  margin-top: 30%;
+  color: white; */
+}
+
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+/* button {
+  background:blue!important;
+  padding: 2%;
+  border-radius: -50%;
+  width: 30%;
+  margin-top: 100px;
+  margin-bottom: 30%;
+  border: 2px solid rgba(255,255,255,.2);
+  outline: none;
+  border-radius: -40px;
+} */
+
+p {
+  color: rgb(255, 0, 0);
+}
+
+.text {
+  margin: 2px;
+  padding: 5px;
+  color:white;
+  margin-top: 5%;
+}
+
+.reg{
+  color: rgb(0, 95, 236);
+  cursor: pointer;
+  color: red;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.ui.form {
+  font-size: larger;
+  padding: 5%;
+  border-radius: 10%;
+  margin-bottom: 20%;
+  margin-top: -10%;
+}
+
+h1 {
+  min-height: 1rem;
+  font-size: 2rem;
+  text-align: center;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.field{
+  /* padding: 4%; */
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: flex-start;
+  border: '1px solid #ccc',
+  /* background-color: #dfdfdf; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input{
+  /* padding: 40%; */
+  /* margin-top: -30%;
+  border-radius: 5%;
+  bottom: 1px solid black; */
+
 }
+.icon{
+   /* /* left: -30%;
+  top: 25%;
+  right: 20%;
+  margin-left: -10%; 
+  margin-right: 20%; */
+  margin-left: -10%;
+  margin-top: -5%;
+}
+.shop{
+  margin-left:20%;
+  margin-top: 2%; 
+  width: 80%;
+  height: 50%;
+  width: 50%;
+  border: 1px solid #dfdfdf;
+  margin-right: 30%;
+}
+.box{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+.box2{
+margin-left: -9%;
+margin-top: 2%;
+margin-right: -11%;
+
+}
+.box1{
+  margin-top: 2%;
+  margin-left: -14%;
+}
+.box{
+  width: 60%;
+  border: 1px solid #dfdfdf;
+  margin-left: 21%;
+  padding-bottom: 2%;
+  margin-right: 10%;
+  margin-top: 1%;
+  border-radius: 80px;
+  background-color: aliceblue;
+  height: 115vh;   
+  
+}
+.summa{
+color: white;
+
+}
+.dummy{
+
+  margin-top: -9%;
+  margin-left: -3%;
+  
+}
+
+
