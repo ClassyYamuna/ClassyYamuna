@@ -39,11 +39,11 @@ const Home = ({navigateTo}) => {
           )} */}
 
           <form onSubmit={handleSubmit} className="form">
-              <h1 style={{marginBottom:'20%',marginTop:'1%'}}>Login</h1>
+              <h1 style={{marginBottom:'20%',marginTop:'1%',color:'black'}}>Login</h1>
               {/* <div className="ui divider"></div> */}
               <div className="ui form">
                   <div className="field">
-                      <label style={{color:"white" , width: '50%',marginBottom:'10%',marginTop:'-8%',marginLeft:'4%'}}>Login PIN</label>
+                      <label style={{color:"blue" ,fontFamily:'initial', width: '50%',marginBottom:'15%',marginTop:'-8%',marginLeft:'4%'}}>Login PIN</label>
 
 {/*                         
                       <input  className="input"
@@ -72,14 +72,16 @@ const Home = ({navigateTo}) => {
                           placeholder="Enter Login PIN" 
                           style={{background :"transparent",
                               padding:'4%',
-                              color:'white',
+                              color:'aliceblue',
                               marginLeft:'4%',
                               paddingLeft:'-35%',
-                              borderRadius:'1%',
+                              borderRadius:'3%',
                               marginRight:'-10',
                               width:'92%',
-                              border: '2px solid white',
+                              border: '3px solid gray',
                               marginTop:'-10%',
+                              fontFamily:'initial',
+                              fontSize:'16px'
                               
                           }}
                         value={formValues}
@@ -125,15 +127,20 @@ const Home = ({navigateTo}) => {
                       /> */}
                   </div>
                   {/* <p>{formErrors.confirmPassword}</p> */}
-                  <button style={{background :"blue",padding:'5%',color:"white",  cursor: 'pointer',border: '2px solid gray', border:'none',borderRadius:"5px",width:'83%',marginLeft:'9%',marginTop:'-2%'}} className="fluid ui button blue"
+                  <button style={{background :"#5E70E7",padding:'5%',color:"white",  cursor: 'pointer',border: '2px solid gray', border:'none',borderRadius:"5px",width:'83%',marginLeft:'9%',marginTop:'-2%'}} className="fluid ui button blue"
                   onClick={opendashboard}>Login</button>
               {/* </div> */}
+              <div className="text" style={{fontFamily:'initial',fontSize:'20px'}}>
+              
+          Are You New For Insta Credit? <br></br></div>
+             <div> <a className="reg" href="#" onClick={openRegistrationPage} style={{marginTop:'-10%'}}> Register!</a>
+          </div>
           </form>
-          <div className="text">
+          {/* <div className="text">
               
           Are You New For Insta Credit? 
               <a className="reg" href="#" onClick={openRegistrationPage}> Register!</a>
-          </div>
+          </div> */}
       </div>
       {/* {isSubmit && <RegisterScreen />} */}
       {/* </div> */}
